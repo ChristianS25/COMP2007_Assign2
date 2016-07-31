@@ -178,7 +178,7 @@
     <Compile Include="Models\FoodContext.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
-    <Compile Include="Models\FoodStoreContext.cs" />
+    <Compile Include="Scripts\FoodStoreContext.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.cs" />
   </ItemGroup>
@@ -253,7 +253,7 @@
     <Content Include="Views\Foods\Details.cshtml" />
     <Content Include="Views\Foods\Edit.cshtml" />
     <Content Include="Views\Foods\Index.cshtml" />
-    <Content Include="Views\Foods\Contact.cshtml" />
+    <Content Include="Views\Home\Contact.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

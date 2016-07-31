@@ -14,7 +14,11 @@ namespace COMP2007_S2016_Lesson10C.Controllers
         {
             return View();
         }
+        public ActionResult Contact()
+        {
+            return View();
+        }
 
-       
+
     }
 }
