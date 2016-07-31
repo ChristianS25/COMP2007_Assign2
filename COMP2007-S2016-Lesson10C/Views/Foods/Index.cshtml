@@ -1,0 +1,66 @@
+﻿@model IEnumerable<COMP2007_S2016_Lesson10C.Models.Food>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<!--
+    Author: Christian Simpson, Ryan Kornyk
+    Date: July 30th 
+    Folder: Foods
+    File: Index.cshtml
+-->
+
+<h2>Tomatoes Au Greatin' Menu</h2>
+
+<!--The foods database items are displayed here-->
+<p>
+    @Html.ActionLink("Add Menu Item", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Name)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Type)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Desc)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Price)
+        </th>
+        <th>
+
+        </th>
+        <th>
+
+        </th>
+    </tr>
+    
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Name)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Type)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Desc)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Price)
+        </td>
+        <td>
+            <!--Html.DisplayFor(modelItem => item.image)-->
+        </td>
+        <td>
+            @Html.ActionLink("Details", "Details", new { id=item.ID }) 
+            
+        </td>
+    </tr>
+}
+
+</table>
