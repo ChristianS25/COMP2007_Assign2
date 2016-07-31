@@ -187,9 +187,6 @@
     <Content Include="Assets\images\chocolatetomato.jpg" />
     <Content Include="Assets\images\deeptomato.jpg" />
     <Content Include="Assets\images\gordon.jpg" />
-    <Content Include="Assets\images\home-showcase.png" />
-    <Content Include="Assets\images\logo.png" />
-    <Content Include="Assets\images\placeholder.gif" />
     <Content Include="Assets\images\room.jpg" />
     <Content Include="Assets\images\tomato.gif" />
     <Content Include="Assets\images\tomato.jpg" />
